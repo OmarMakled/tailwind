@@ -14,10 +14,15 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
+    "autoprefixer": "^9.8.4",
+    "tailwindcss": "^1.4.6",
+    "vue-cli-plugin-tailwind": "^1.4.1",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
     "plugins": {
+      "tailwindcss": {},
+      "vue-cli-plugin-tailwind/purgecss": {},
       "autoprefixer": {}
     }
   },
