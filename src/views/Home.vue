@@ -2,16 +2,17 @@
   <div class="p-4">
     <chit-chat></chit-chat>
     <erin-lindford class="mt-4"></erin-lindford>
-    <listing-card class="mt-4"></listing-card>
+    <coffee-card class="mt-4"></coffee-card>
   </div>
 </template>
 
 <script>
 import ChitChat from "@/components/ChitChat";
+import CoffeeCard from "@/components/CoffeeCard";
 import ErinLindford from "@/components/ErinLindford";
-import ListingCard from "@/components/ListingCard";
+
 export default {
   name: "home",
-  components: { ChitChat, ErinLindford, ListingCard }
+  components: { ChitChat, ErinLindford, CoffeeCard }
 };
 </script>
