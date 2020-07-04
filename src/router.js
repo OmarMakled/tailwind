@@ -13,12 +13,14 @@ export default new Router({
       component: Home
     },
     {
-      path: '/footer',
-      name: 'footer',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import( /* webpackChunkName: "about" */ './views/Footer.vue')
+      path: '/nav',
+      name: 'nav',
+      component: () => import('./views/Nav.vue')
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: () => import('./views/Grid.vue')
     }
   ]
 })

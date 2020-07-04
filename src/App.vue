@@ -1,10 +1,17 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/footer">Footer</router-link>
-    </div>
+  <div id="app" class="p-8">
+    <app-nav></app-nav>
     <router-view />
   </div>
 </template>
 
+<script>
+import AppNav from "@/components/AppNav";
+export default {
+  components: {
+    AppNav
+  }
+};
+</script>
+
+<style src="./assets/tailwind.css"></style>
