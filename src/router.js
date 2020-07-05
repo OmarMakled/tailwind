@@ -21,6 +21,11 @@ export default new Router({
       path: '/grid',
       name: 'grid',
       component: () => import('./views/Grid.vue')
+    },
+    {
+      path: '/workcation',
+      name: 'workcation',
+      component: () => import('./views/WorkCation.vue')
     }
   ]
 })

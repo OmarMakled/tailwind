@@ -5,6 +5,7 @@
       <router-link to="/" class="px-10 py-2 router-link-active">Home</router-link>
       <router-link to="/nav" class="px-10 py-2 router-link-active">Nav</router-link>
       <router-link to="/grid" class="px-10 py-2 router-link-active">Grid</router-link>
+      <router-link to="/workcation" class="px-10 py-2 router-link-active">WorkCation</router-link>
     </div>
   </div>
 </template>
