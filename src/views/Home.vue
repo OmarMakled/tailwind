@@ -1,6 +1,6 @@
 <template>
   <main class="flex items-center min-h-screen p-10">
-    <div>
+    <div class="md:text-left text-center">
       <h1 class="font-bold text-5xl">A task manager you can trust for life</h1>
       <p
         class="mt-3 text-xl"
@@ -8,7 +8,7 @@
       <p
         class="mt-3 text-xl"
       >Our team is committed to staying independent and earning your trust for as long as you need our apps.</p>
-      <div class="flex items-center mt-3 text-xl">
+      <div class="flex items-center justify-center md:justify-start mt-3">
         <svg
           fill="none"
           height="24"
@@ -24,7 +24,7 @@
         <a href class="font-light text-blue-500">Learn about our long-term mission</a>
       </div>
     </div>
-    <div>
+    <div class="hidden md:block">
       <img
         src="https://todoist.com/_next/static/images/mission@2x_14c0f4a5fedd3c66ca5d91982d823c97.webp"
         alt
