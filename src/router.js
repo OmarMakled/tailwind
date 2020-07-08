@@ -18,14 +18,14 @@ export default new Router({
       component: () => import('./views/Nav.vue')
     },
     {
-      path: '/grid',
-      name: 'grid',
-      component: () => import('./views/Grid.vue')
+      path: '/page-two',
+      name: 'page-two',
+      component: () => import('./components/Src/TailwindHero.vue')
     },
     {
-      path: '/workcation',
-      name: 'workcation',
-      component: () => import('./views/WorkCation.vue')
+      path: '/page-one',
+      name: 'page-one',
+      component: () => import('./components/Pages/TailwindHero.vue')
     }
   ]
 })
