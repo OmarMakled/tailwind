@@ -8,24 +8,20 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [{
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/nav',
-      name: 'nav',
-      component: () => import('./views/Nav.vue')
-    },
-    {
-      path: '/page-two',
-      name: 'page-two',
+      path: '/src/tailwindHero',
       component: () => import('./components/Src/TailwindHero.vue')
     },
     {
-      path: '/page-one',
-      name: 'page-one',
+      path: '/page/tailwindHero',
       component: () => import('./components/Pages/TailwindHero.vue')
+    },
+    {
+      path: '/page/1Password',
+      component: () => import('./components/Pages/1Password.vue')
+    },
+    {
+      path: '/page/Todo',
+      component: () => import('./components/Pages/Todo.vue')
     }
   ]
 })
