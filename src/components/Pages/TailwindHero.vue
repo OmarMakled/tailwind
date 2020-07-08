@@ -13,20 +13,24 @@
     </div>
 
     <div class="mt-8">
-      <h1 class="font-black leading-9 text-3xl">
+      <h1 class="font-black leading-9 md:leading-normal md:text-5xl md:text-center text-3xl">
         Data to enrich your
         <span class="block text-indigo-500">online business</span>
       </h1>
       <p
-        class="font-light mt-5 text-xl"
+        class="font-light md:text-center mt-5 text-xl"
       >Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-      <button class="bg-indigo-500 block mt-5 px-10 py-3 rounded-md text-white w-full">Get Started</button>
-      <button
-        class="bg-indigo-100 block mt-5 px-10 py-3 rounded-md text-indigo-500 w-full"
-      >Live Demo</button>
+      <div class="md:flex md:justify-center mt-5">
+        <button
+          class="bg-indigo-500 block md:mr-4 md:w-auto px-10 py-3 rounded-md text-white w-full"
+        >Get Started</button>
+        <button
+          class="bg-indigo-100 block md:mt-0 md:w-auto mt-5 px-10 py-3 rounded-md text-indigo-500 w-full"
+        >Live Demo</button>
+      </div>
     </div>
 
-    <div class="mt-8">
+    <div class="md:mt-12 mt-8">
       <img
         src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
         alt
